@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call Bomber</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    // এটি সঠিক CDN URL ব্যবহার করছে
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // যেমন Firestore এর জন্য: import { getFirestore } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDMlXfVFcPHGkLFYDKBlnFv6NkP_RrHgII",
-  authDomain: "callbomer.firebaseapp.com",
-  projectId: "callbomer",
-  storageBucket: "callbomer.firebasestorage.app",
-  messagingSenderId: "857127370161",
-  appId: "1:857127370161:web:e234df9e99b0e2e958d190"
-};
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyDMlXfVFcPHGkLFYDKBlnFv6NkP_RrHgII",
+        authDomain: "callbomer.firebaseapp.com",
+        projectId: "callbomer",
+        storageBucket: "callbomer.firebasestorage.app",
+        messagingSenderId: "857127370161",
+        appId: "1:857127370161:web:e234df9e99b0e2e958d190"
+    };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // এখানে আপনি Firestore বা অন্যান্য Firebase সার্ভিস ইম্পোর্ট এবং ব্যবহার শুরু করতে পারেন
+</script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
